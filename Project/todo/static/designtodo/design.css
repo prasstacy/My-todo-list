@@ -1,4 +1,4 @@
-/* wrapper for the whole page */
+
 .body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
@@ -8,13 +8,13 @@
     padding-top: 50px;
 }
 
-/* page title */
+
 .body h1 {
     text-align: center;
     color: #333;
 }
 
-/* form for adding tasks */
+
 .body form.add-task-form {
     display: flex;
     justify-content: center;
@@ -44,7 +44,7 @@
 
 /* task list */
 .body ul {
-    list-style: none;   /* removes default bullets */
+    list-style: none;  
     padding: 0;
     margin: 0;
     width: 400px;
@@ -56,22 +56,23 @@
     margin-bottom: 10px;
     border-radius: 4px;
 
-    display: flex;           /* row layout for checkbox, text, delete button */
-    align-items: center;     /* vertically align */
+    display: flex;           
+    align-items: center;     
     gap: 10px;
 }
 
 .body li span {
-    flex-grow: 1; /* text expands to fill space */
+    flex-grow: 1; 
 }
 
-/* checkbox spacing */
+
 .body li input[type="checkbox"] {
     margin: 0;
 }
 
-/* delete form button spacing */
+
 .body li form {
     margin: 0;
     padding: 0;
 }
+
